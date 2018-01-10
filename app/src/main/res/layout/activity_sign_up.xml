@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.paulofelipeoliveirasouza.app_aguaz.SignUpActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="30dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/edit_text_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Seu nome"
+            android:maxLines="1" />
+
+        <EditText
+            android:id="@+id/edit_text_email"
+            android:inputType="textEmailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:hint="Seu e-mail" />
+
+        <EditText
+            android:id="@+id/edit_text_phone"
+            android:inputType="numberDecimal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Seu telefone"
+            android:maxLength="11"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/edit_text_zip_code"
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:hint="Seu cep"
+                android:maxLines="1"
+                android:inputType="numberDecimal"
+                android:maxLength="8"/>
+
+            <EditText
+                android:id="@+id/edit_text_number_house"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:maxLines="1"
+                android:inputType="numberDecimal"
+                android:layout_height="wrap_content"
+                android:hint="Número"/>
+
+        </LinearLayout>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Seu endereco"
+            android:visibility="gone"/>
+
+        <EditText
+            android:id="@+id/edit_text_password"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Crie uma senha"
+            android:maxLines="1"
+            />
+
+        <EditText
+            android:id="@+id/edit_text_repassword"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Confirme sua senha"
+            android:maxLines="1" />
+
+        <Button
+            android:id="@+id/button_cadastro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cadastrar"/>
+
+        <TextView
+            android:id="@+id/text_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>

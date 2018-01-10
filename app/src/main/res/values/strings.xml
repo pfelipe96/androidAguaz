@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Aguaz</string>
+    <string name="title_activity_login"></string>
+    <string name="title_activity_profile">ProfileActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="message_failed_is_online">"Por favor, verifique sua internet!"</string>
+    <!--<string name="message_failed_signup">Houve um falha na transação, por gentileza verifique sua internet ou entre em contato conosco.</string>-->
+    <!--<string name="message_success_singup">Cadastro finalizado com sucesso, já pode logar</string>-->
+</resources>

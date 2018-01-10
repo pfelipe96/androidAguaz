@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "336272685521",
+    "firebase_url": "https://appaguaz.firebaseio.com",
+    "project_id": "appaguaz",
+    "storage_bucket": "appaguaz.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:336272685521:android:500661e91b90a5e4",
+        "android_client_info": {
+          "package_name": "com.example.paulofelipeoliveirasouza.app_aguaz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "336272685521-ssbfs8dga3kkmnht9d2qk18c544ohb67.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.paulofelipeoliveirasouza.app_aguaz",
+            "certificate_hash": "0c645182fed9cca961dde4d2ae63f08e02874735"
+          }
+        },
+        {
+          "client_id": "336272685521-eage8hf5ve8r03038i68ob74ke49ik11.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOIQ3Hk0yOeS5mM85H5wzNcPuEfoMJ0vI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "336272685521-eage8hf5ve8r03038i68ob74ke49ik11.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
